@@ -1,7 +1,7 @@
 # Interlace
 Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.
 
-[![Python 3.2|3.6](https://img.shields.io/badge/python-3.2|3.6-green.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPL3-_red.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Twitter](https://img.shields.io/badge/twitter-@codingo__-blue.svg)](https://twitter.com/codingo_) [![Twitter](https://img.shields.io/badge/twitter-@sml555__-blue.svg)](https://twitter.com/sml555_)
+[![Python 3.2|3.6](https://img.shields.io/badge/python-3.2|3.6-green.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPL3-_red.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Twitter](https://img.shields.io/badge/twitter-@codingo__-blue.svg)](https://twitter.com/codingo_) [![Twitter](https://img.shields.io/badge/twitter-@sml555__-blue.svg)](https://twitter.com/)
 
 
 
@@ -192,7 +192,7 @@ Yet again, VHostScan does not have any inbuilt dash range format support.
 
 
 ## Threading Support for an application that doesn't support it
-Run a [virtual host scan](https://github.com/codingo/VHostScan) against each host in a file (`target-lst.txt`), whilst also limiting scans at any one time to 50 maximum threads.
+Run a [virtual host scan](https://github.com/trhacknon/VHostScan) against each host in a file (`target-lst.txt`), whilst also limiting scans at any one time to 50 maximum threads.
 
 This could be done using a direct command:
 ```bash
@@ -225,7 +225,7 @@ Using the above example, let's assume you want independent scans to be via diffe
 ```
 
 # Authors and Thanks
-Originally written by Michael Skelton ([codingo](https://twitter.com/codingo_)) and Sajeeb Lohani ([sml555](https://twitter.com/sml555_)) with help from Charelle Collett ([@Charcol0x89](https://twitter.com/Charcol0x89)) for threading refactoring and overall approach, and Luke Stephens ([hakluke](https://twitter.com/hakluke)) for testing and approach.
+Originally written by Michael Skelton ([trhacknon](https://twitter.com/)) and trhacknon[trhacknon](https://twitter.com/)) with help from Charelle Collett ([@Charcol0x89](https://twitter.com/Charcol0x89)) for threading refactoring and overall approach, and Luke Stephens ([hakluke](https://twitter.com/hakluke)) for testing and approach.
 
 # Contributions
 Contributions to this project are very welcome. If you're a newcomer to open source and would like some help in doing so, feel free to reach out to us on Twitter ([@codingo_](https://twitter.com/codingo_)) / ([@sml555_](https://twitter.com/sml555_)) and we'll assist wherever we can.
